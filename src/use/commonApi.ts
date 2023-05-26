@@ -6,6 +6,7 @@ export default function useCommonApi(emit) {
       if (content !== null) {
         emit("decode", content);
       }
+      else {emit("decode", {error:true, message:"Can't parse image, please try make another photo"}); }
     } catch (error) {
       // fail silently
     }

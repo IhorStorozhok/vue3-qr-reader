@@ -1,6 +1,6 @@
 {
   "name": "@storozhok/vue3-qr-reader",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "private": false,
   "description": "Vue 3 QR reader.",
   "author": "hj <hjian5567@gmail.com>",
@@ -45,5 +45,10 @@
   },
   "dependencies": {
     "jsqr": "^1.4.0"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ]
 }
